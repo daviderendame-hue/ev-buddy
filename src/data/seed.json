@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "key": "city",
+      "name": "Citycar / utilitaria",
+      "baseConsumption": { "city": 13.5, "highway": 19.5 }
+    },
+    {
+      "key": "compact",
+      "name": "Segmento C / compatta",
+      "baseConsumption": { "city": 15.5, "highway": 21.5 }
+    },
+    {
+      "key": "suv",
+      "name": "SUV / crossover",
+      "baseConsumption": { "city": 18.0, "highway": 25.0 }
+    }
+  ],
+  "guide": [
+    { "slug": "kw-kwh", "title": "kW vs kWh", "body": "kW = potenza (velocità di ricarica). kWh = energia (capacità batteria). Batteria 60 kWh = serbatoio. Colonnina 50 kW = pompa." },
+    { "slug": "ac-dc", "title": "AC e DC", "body": "AC = casa e molte colonnine urbane. DC = ricarica rapida (viaggi). In viaggio spesso conviene DC." },
+    { "slug": "home-charging", "title": "Ricarica a casa", "body": "Presa: ok per iniziare ma lenta. Wallbox: più comoda e spesso più sicura. 3 kW fattibile, 6 kW più sereno." },
+    { "slug": "condominio", "title": "Condominio", "body": "La parte dura è spesso burocratica. Serve comunicazione chiara all’amministratore e progetto semplice." },
+    { "slug": "tempi-reali", "title": "Tempi reali", "body": "La potenza non resta sempre massima: cala quando la batteria si riempie. In viaggio: meglio ricariche brevi." },
+    { "slug": "degrado", "title": "Degrado batteria", "body": "Perdita capacità lenta. Buona abitudine: stare spesso tra 20–80% (quando puoi) per uso quotidiano." },
+    { "slug": "inverno", "title": "Inverno", "body": "Autonomia giù per freddo + riscaldamento. Soluzione: buffer e pre-riscaldamento quando sei collegato." },
+    { "slug": "costi", "title": "Costi", "body": "Dipende da dove ricarichi: casa quasi sempre costa meno del termico; HPC spesso costa di più." }
+  ]
+}
