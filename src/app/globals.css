@@ -47,3 +47,13 @@ a{ color:inherit; text-decoration:none; }
 @media (max-width: 560px){
   .formGrid{ grid-template-columns: 1fr; }
 }
+/* --- wizard --- */
+.progressWrap{ display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+.progressBar{ height:10px; background:#0e141f; border:1px solid var(--line); border-radius:999px; overflow:hidden; flex:1; }
+.progressFill{ height:100%; background:var(--accent); width:0%; }
+
+.wizardStepTitle{ margin: 6px 0 10px; font-size: 18px; }
+.help{ color: var(--muted); font-size: 13px; line-height: 1.45; margin-top: 6px; }
+
+.stepActions{ display:flex; gap:12px; flex-wrap:wrap; margin-top: 16px; }
+.stepActions .btn{ min-width: 140px; }
